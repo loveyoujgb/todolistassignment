@@ -5,7 +5,6 @@
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  /* 양쪽 정렬!! flex , space-between */
 }
 .leftForm {
   display: flex;

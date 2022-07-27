@@ -6,13 +6,11 @@
   margin: 15px;
   word-wrap: break-word;
 }
-/* todoBoxwrap */
 .button {
   border-radius: 8px;
   cursor: pointer;
   height: 40px;
   width: 45%;
-  /* 부모요소의 45% 인가요? */
   margin: 5px;
   background-color: transparent;
 }
