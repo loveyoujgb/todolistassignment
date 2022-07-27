@@ -1,0 +1,43 @@
+.form {
+  font-weight: bold;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* 양쪽 정렬!! flex , space-between */
+}
+.leftForm {
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightForm {
+  font-weight: bold;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #008b74;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+}
+.rightForm:hover {
+  background-color: #007965;
+  box-shadow: 0px 0px 3px 0px #005244;
+}
+.formInput {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+.formInput:focus {
+  outline: 1px solid transparent;
+  box-shadow: 0px 0px 3px 0px #b1b1b1;
+}

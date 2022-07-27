@@ -1,0 +1,33 @@
+.todoBox {
+  border: 3px solid #008b74;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  margin: 15px;
+  word-wrap: break-word;
+}
+/* todoBoxwrap */
+.button {
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  width: 45%;
+  /* 부모요소의 45% 인가요? */
+  margin: 5px;
+  background-color: transparent;
+}
+.redButton {
+  border: 2px solid red;
+}
+.redButton:hover {
+  box-shadow: 0px 0px 3px 0px red;
+}
+.greendButton {
+  border: 2px solid #008b74;
+}
+.greendButton:hover {
+  box-shadow: 0px 0px 3px 0px #005244;
+}
+.boxContent {
+  margin-bottom: 20px;
+}

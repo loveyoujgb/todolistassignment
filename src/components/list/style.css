@@ -1,0 +1,9 @@
+.listWrap {
+  max-width: 1200px;
+  min-width: 800px;
+}
+.listBox {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+}
